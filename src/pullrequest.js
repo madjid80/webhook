@@ -2,6 +2,12 @@ var Statuses = require('./statuses.js')
 var Git = require('./gitmng.js')
 var curljs = require('curljs');
 
+
+
+
+
+
+
 var open_pr = function(request_body){
   var pr = request_body.pull_request
   var syntax_checking = new Statuses(pr.statuses_url, "Syntax Checking", "")

@@ -1,0 +1,9 @@
+port: 8080
+cors:
+  enable: true
+log:
+  enable: true
+  level: debug
+  file:
+    enable: true
+    path: '/dev/stdout'

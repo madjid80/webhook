@@ -1,0 +1,22 @@
+var PullRequestEvent = function(){
+  this.action = "";
+  this.number = 0;
+  this.pullRequest  = null ;
+  this.body = "";
+  this.created_at= "" ;
+  this.updated_at= "" ;
+  this.closed_at= "" ;
+  this.merged_at= "" ;
+  this.merge_commit_sha= "" ;
+  this.assignee= "" ;
+  this.milestone= "" ;
+  this.commits_url= "" ;
+  this.review_comments_url= "" ;
+  this.review_comment_url= "" ;
+  this.comments_url= "" ;
+  this.statuses_url= "" ;
+  this.head = null ;
+  this.repository = null;
+  this.sender = null;
+  this.installation = null
+};

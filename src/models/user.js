@@ -1,0 +1,19 @@
+var User = function(){
+  this.login= "";
+  this.id= 0;
+  this.avatar_url="";
+  this.gravatar_id="";
+  this.url="";
+  this.html_url="";
+  this.followers_url="";
+  this.following_url="";
+  this.gists_url="";
+  this.starred_url="";
+  this.subscriptions_url= "";
+  this.organizations_url="";
+  this.repos_url= "";
+  this.events_url= "";
+  this.received_events_url="";
+  this.type="";
+  this.site_admin=false;
+};
